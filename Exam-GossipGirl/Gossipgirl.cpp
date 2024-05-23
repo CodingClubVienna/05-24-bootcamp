@@ -32,6 +32,6 @@ return false;
 /*z.B.: [Serena, van der Woodsen, Manhattan, 19].*/
 
 ostream& operator<<(ostream& o, const Gossipgirl& val){
-    o << "[HHHELLOOOOOOOO" << val.vorname << ", " << val.zuname << "," << ortsteil_list.at(static_cast<int>(val.ortsteil));
+    o << "[" << val.vorname << ", " << val.zuname << "," << ortsteil_list.at(static_cast<int>(val.ortsteil));
     return o << ", " << val.bekanntheitsgrad() << "]";
 }
